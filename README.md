@@ -1,4 +1,4 @@
-# Smart Traffic Optimization System using YOLOv8 and Swarm Intelligence
+# Enhancing Traffic Flow and Energy Efficiency in Autonomous Vehicle Fleets through Swarm Intelligence
 
 An intelligent and adaptive traffic management system that leverages real-time object detection (YOLOv8) and swarm intelligence to optimize lane allocation and improve urban traffic flow.
 
