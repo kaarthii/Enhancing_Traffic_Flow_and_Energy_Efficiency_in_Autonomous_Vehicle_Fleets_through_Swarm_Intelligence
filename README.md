@@ -42,38 +42,6 @@ Result: Smoother traffic flow, reduced vehicle idle time, and improved lane util
 
 ---
 
-## Project Structure
-   ```bash
-   smart-traffic-system/
-   ├── models/ # Swarm intelligence logic & lane allocation
-   ├── yolov8_inference/ # YOLOv8 vehicle detection
-   ├── simulation/ # SUMO configs and control logic
-   ├── data/ # Raw video frames and result logs
-   ├── plots/ # Visualizations (lane count, flow)
-   ├── requirements.txt # Python dependencies
-   ├── README.md # This file
-   └── main.py # Execution script
-```
-## How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/smart-traffic-system.git
-   cd smart-traffic-system
-
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-
-3. Run YOLOv8 object detection on a traffic video:
-   ```bash
-   python yolov8_inference/yolo_detect.py --video input_video.mp4
-   
-4. Run the swarm-based lane allocation simulation:
-   ```bash
-   python main.py
-
-5. View the output visualizations in the /plots/ directory.
 
 ## Core Concepts
 - YOLOv8 is used for object detection on video frames to identify number, type, and position of vehicles.
