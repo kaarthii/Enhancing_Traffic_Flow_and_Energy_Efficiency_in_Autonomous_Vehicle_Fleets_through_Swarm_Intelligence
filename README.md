@@ -28,7 +28,7 @@ Result: Smoother traffic flow, reduced vehicle idle time, and improved lane util
 
 ---
 
-## 🛠Technologies Used
+## Technologies Used
 
 | Component         | Description                                      |
 |------------------|--------------------------------------------------|
