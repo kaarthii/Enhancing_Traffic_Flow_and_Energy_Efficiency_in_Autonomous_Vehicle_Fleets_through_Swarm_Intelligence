@@ -43,16 +43,17 @@ Result: Smoother traffic flow, reduced vehicle idle time, and improved lane util
 ---
 
 ## Project Structure
-smart-traffic-system/
-├── models/ # Swarm intelligence logic & lane allocation
-├── yolov8_inference/ # YOLOv8 vehicle detection
-├── simulation/ # SUMO configs and control logic
-├── data/ # Raw video frames and result logs
-├── plots/ # Visualizations (lane count, flow)
-├── requirements.txt # Python dependencies
-├── README.md # This file
-└── main.py # Execution script
-
+   ```bash
+   smart-traffic-system/
+   ├── models/ # Swarm intelligence logic & lane allocation
+   ├── yolov8_inference/ # YOLOv8 vehicle detection
+   ├── simulation/ # SUMO configs and control logic
+   ├── data/ # Raw video frames and result logs
+   ├── plots/ # Visualizations (lane count, flow)
+   ├── requirements.txt # Python dependencies
+   ├── README.md # This file
+   └── main.py # Execution script
+```
 ## How to Run
 
 1. Clone the repository:
